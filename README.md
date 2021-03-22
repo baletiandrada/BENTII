@@ -24,5 +24,8 @@ Python Files Relations plugin generates result.json file which contains 2 lists,
    7. In DX Platform, at Plugins section(Configure project), your new plugin will appear
    8. Write commands
    9. See graph results an Relations section(Explore project)
+   
+## License
+MIT / Apache 2.0
 
 

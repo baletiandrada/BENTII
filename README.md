@@ -21,6 +21,8 @@ Python Files Relations plugin generates result.json file which contains 2 lists,
    4. Run the plugin for result.json file and ces-python-relations...SNAPSHOT.jar to be generated
    5. Create a directory in .dxplatform/plugins named for example pythonRelations
    6. Copy in pythonRelations the 2 files mentioned above, at step 4
-   7. In DX Platform, at Plugins section, your new plugin will appear
+   7. In DX Platform, at Plugins section(Configure project), your new plugin will appear
+   8. Write commands
+   9. See graph results an Relations section(Explore project)
 
 

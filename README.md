@@ -2,7 +2,7 @@
 
 ## Idea Description
 
-Our plugin determines the connection between python files basen on imported libraries. One connection suggests that 2 python files start from the same sub functionality and it gives us a overview of all of python files.
+Our plugin determines the connection between python files basen on imported libraries. One connection suggests that 2 python files start from the same sub functionality and it gives us an overview of all of python files.
 
 ## Plugin Description
 

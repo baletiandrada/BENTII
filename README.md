@@ -14,16 +14,13 @@ Python Files Relations plugin generates result.json file which contains 2 lists,
    git command
 ### Run the following command:
    docker command  
-### For graph view in DX Platform tool, you have to follow the steps:
-   1. Download DX Platform and put .dxplatform in /Users/...
-   2. Move startDx.bat in other location
-   3. Run startDx.bat and open localhost:6060... on your web browser
-   4. Run the plugin for result.json file and ces-python-relations...SNAPSHOT.jar to be generated
-   5. Create a directory in .dxplatform/plugins named for example pythonRelations
-   6. Copy in pythonRelations the 2 files mentioned above, at step 4
-   7. In DX Platform, at Plugins section(Configure project), your new plugin will appear
-   8. Write commands
-   9. See graph results an Relations section(Explore project)
+### For graph view in DX Platform tool, you have to follow the steps
+   4. Run the plugin for result.json file and ces-python-relations...SNAPSHOT.jar to be generated  (in fact, these will be attached to the release)
+   6. Create a directory in .dxplatform/plugins named for example pythonRelations
+   7. Copy in pythonRelations the 2 files mentioned above, at step 4
+   8. In DX Platform, at Plugins section(Configure project), your new plugin will appear
+   9. Write commands
+   10. See graph results an Relations section(Explore project)
    
 ## License
 MIT / Apache 2.0

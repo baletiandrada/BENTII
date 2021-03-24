@@ -2,6 +2,8 @@
 
 Python Files Relations is a plugin which determines the connection between python files basen on imported libraries. One connection suggests that 2 python files start from the same sub functionality and it gives us an overview of all python files.
 
+![GitHub](https://img.shields.io/github/license/baletiandrada/BENTII)
+
 
 ## Motivation
 

@@ -11,12 +11,6 @@ Our plugin generates one file, result.json, which contains 2 lists: with nodes a
 
 
 
-## Screenshots
-
-Results from Dx Platform............
-
-
-
 ## Framework used
 
 We developed this project in **Kotlin** using **IntelliJ Idea IDE**.
@@ -25,35 +19,35 @@ We developed this project in **Kotlin** using **IntelliJ Idea IDE**.
 
 ## Installation
 
-Please download our **latest source code release** and the pythonRelations.zip which contains pythonRelations.jar file. X
+Please download our **latest source code release** and the pythonRelations.zip which contains ces-python-files-relations.jar file. 
 
 
 
 ## Running
 
 ### Running in docker container (on your local machine):
-1. Put the yyy.jar in zzzzzzz folder X
-2. Run the following command:
+1. Put the ces-python-files-relations.jar in ./target folder
+2. Create ./project folder and add your project to be analyzed here
+3. Run the following command:
 
 ```bash
-docker run image_name -v a:b -v c:d X
+docker run -v $PWD/results:/pythonFilesRelations/results -v $PWD/project/YOUR_PROJECT_FOLDER:/pythonFilesRelations/YOUR_PROJECT_FOLDER annaid/pythonrelrep results/result.json YOUR_PROJECT_FOLDER
 ```
-You must change the **path_to_project** parameter to your local path to the project you want to analyze.
 
 ### Running locally outside docker container:
-1. Go to the folder when you downloaded the .jar file X
+1. Go to the folder when you downloaded the ces-python-files-relations.jar file
 2. Run the following command:
 
 ```java
-java -jar pythonRelations.jar result.json path_of_project_to_be_analyzed
+java -jar pythonRelations.jar result.json PATH_TO_YOUR_PROJECT_FOLDER
 ```
 
 
 ### Running in Dx Platform Tool:
 
-1. create dir in ./dxplatform/plugins
-2. copy 2 files: plugin-info.json, xxx.jar in the directory mention above X
-3. In Dx Platform in (Configure project -> Plugins) the plugin will appear and you may create a command. For 'Root folder' configuration field you must enter the local path to the project to be analyzed.
+1. Create a directory (choose any name) in ./dxplatform/plugins
+2. Copy plugin-info.json and ces-python-files-relations.jar in the directory mention above 
+3. In Dx Platform (Configure project -> Plugins) the plugin will appear and you may create a command. For 'Root folder' configuration field you must enter the local path to the project to be analyzed.
 
 
 

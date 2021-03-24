@@ -8,14 +8,17 @@ Python Files Relations is a plugin which determines the connection between pytho
 Our plugin generates one file, result.json, which contains 2 lists: with nodes and links. Nodes represent the python files from chosen project to be analyzed and one link is established between 2 python files sharing the same library or other python package. 
 
 
+
 ## Screenshots
 
 Results from Dx Platform............
 
 
+
 ## Framework used
 
 We developed this project in **Kotlin** using _IntelliJ Idea IDE_.
+
 
 
 ## Installation
@@ -36,8 +39,10 @@ You must change the path_to_project param to your local path to the project you 
 3. In Dx Platform in (Configure project -> Plugins) the plugin will appear and you may create a command. For 'Root folder' configuration field you must enter the path to the project to be analyzed.
 
 
+
 ## Contributions
 We are not open to contributions.
+   
    
    
 ## License

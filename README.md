@@ -1,28 +1,46 @@
-# REFRESH DESIGN    CES - Python Files Relations
+# CES - Python Files Relations
 
-## Idea Description
+Python Files Relations is a plugin which determines the connection between python files basen on imported libraries. One connection suggests that 2 python files start from the same sub functionality and it gives us an overview of all python files.
 
-Our plugin determines the connection between python files basen on imported libraries. One connection suggests that 2 python files start from the same sub functionality and it gives us an overview of all of python files.
 
-## Plugin Description
+## Motivation
 
-Python Files Relations plugin generates result.json file which contains 2 lists, of nodes and of links. Nodes represent the python files from chosen project to be analyzed and one link is established between 2 python files sharing the same library or other python package. 
+Our plugin generates one file, result.json, which contains 2 lists: with nodes and links. Nodes represent the python files from chosen project to be analyzed and one link is established between 2 python files sharing the same library or other python package. 
+
+
+## Screenshots
+
+Results from Dx Platform............
+
+
+## Framework used
+
+We developed this project in **Kotlin** using _IntelliJ Idea IDE_.
+
 
 ## Installation
 
-### Clone or download this repository:
-   git command
-### Run the following command:
-   docker command  
-### For graph view in DX Platform tool, you have to follow the steps
-   4. Run the plugin for result.json file and ces-python-relations...SNAPSHOT.jar to be generated  (in fact, these will be attached to the release)
-   6. Create a directory in .dxplatform/plugins named for example pythonRelations
-   7. Copy in pythonRelations the 2 files mentioned above, at step 4
-   8. In DX Platform, at Plugins section(Configure project), your new plugin will appear
-   9. Write commands
-   10. See graph results an Relations section(Explore project)
+Please download our ~~latest release~~.
+
+### Running in docker container:
+Run the following command:
+
+```bash
+docker run image_name -v a:b -v c:d
+```
+You must change the path_to_project param to your local path to the project you want to analyze
+
+### Running in Dx Platform:
+1. create dir in ./dxplatform/plugins
+2. copy 2 files: plugin-info.json, xxx.jar in the directory mention above
+3. In Dx Platform in (Configure project -> Plugins) the plugin will appear and you may create a command. For 'Root folder' configuration field you must enter the path to the project to be analyzed.
+
+
+## Contributions
+We are not open to contributions.
+   
    
 ## License
-MIT / Apache 2.0
+[MIT](https://choosealicense.com/licenses/mit/)
 
 

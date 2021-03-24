@@ -25,30 +25,35 @@ We developed this project in **Kotlin** using **IntelliJ Idea IDE**.
 
 ## Installation
 
-Please download our **latest source code release** if you want to run inside the docker container. Otherwise, download xxx.zip which contains yyy.jar file and run it locally with the following command:
+Please download our **latest source code release** and the pythonRelations.zip which contains pythonRelations.jar file.
+
+
+
+## Running
+
+### Running in docker container (on your local machine):
+1. Put the yyy.jar in zzzzzzz folder
+2. Run the following command:
+
+```bash
+docker run image_name -v a:b -v c:d
+```
+You must change the **path_to_project** parameter to your local path to the project you want to analyze.
+
+### Running locally outside docker container:
+1. Go to the folder when you downloaded the .jar file
+2. Run the following command:
 
 ```java
 java -jar pythonRelations.jar result.json path_of_project_to_be_analyzed
 ```
 
 
-## Running
-
-### Running in docker container (on your local machine):
-
-Run the following command:
-
-```bash
-docker run image_name -v a:b -v c:d
-```
-You must change the path_to_project parameter to your local path to the project you want to analyze
-
-
 ### Running in Dx Platform Tool:
 
 1. create dir in ./dxplatform/plugins
 2. copy 2 files: plugin-info.json, xxx.jar in the directory mention above
-3. In Dx Platform in (Configure project -> Plugins) the plugin will appear and you may create a command. For 'Root folder' configuration field you must enter the path to the project to be analyzed.
+3. In Dx Platform in (Configure project -> Plugins) the plugin will appear and you may create a command. For 'Root folder' configuration field you must enter the local path to the project to be analyzed.
 
 
 

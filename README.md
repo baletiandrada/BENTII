@@ -25,7 +25,7 @@ We developed this project in **Kotlin** using **IntelliJ Idea IDE**.
 
 ## Installation
 
-Please download our **latest release** if you want to run inside the docker container. Otherwise, download xxx.zip which contains yyy.jar file and run it locally with the following command:
+Please download our **latest source code release** if you want to run inside the docker container. Otherwise, download xxx.zip which contains yyy.jar file and run it locally with the following command:
 
 ```java
 java -jar pythonRelations.jar result.json path_of_project_to_be_analyzed

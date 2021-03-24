@@ -19,7 +19,7 @@ Results from Dx Platform............
 
 ## Framework used
 
-We developed this project in **Kotlin** using _IntelliJ Idea IDE_.
+We developed this project in **Kotlin** using **IntelliJ Idea IDE**.
 
 
 

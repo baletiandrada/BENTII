@@ -27,7 +27,7 @@ We developed this project in **Kotlin** using _IntelliJ Idea IDE_.
 
 Please download our **latest release**.
 
-#### Running in docker container:
+#### Running in docker container (on your local machine):
 Run the following command:
 
 ```bash
@@ -35,7 +35,7 @@ docker run image_name -v a:b -v c:d
 ```
 You must change the path_to_project param to your local path to the project you want to analyze
 
-#### Running in Dx Platform:
+#### Running in Dx Platform Tool:
 1. create dir in ./dxplatform/plugins
 2. copy 2 files: plugin-info.json, xxx.jar in the directory mention above
 3. In Dx Platform in (Configure project -> Plugins) the plugin will appear and you may create a command. For 'Root folder' configuration field you must enter the path to the project to be analyzed.
